@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+SomeModel.ordered_find([1, 3, 2])
+=>  [#<SomeModel id: 1>, #<SomeModel id: 3>, #<SomeModel id: 2>]
+```
+or
+```
+SomeModel.ordered_find(1, 3, 2)
+```
 
 ## Contributing
 
