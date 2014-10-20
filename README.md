@@ -1,6 +1,6 @@
 # OrderedFind
 
-TODO: Write a gem description
+find records like AR::Base#find, keeping the same order with arguments
 
 ## Installation
 
@@ -29,7 +29,7 @@ SomeModel.ordered_find(1, 3, 2)
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/ordered_find/fork )
+1. Fork it ( https://github.com/tkeo/ordered_find/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
