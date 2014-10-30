@@ -19,8 +19,8 @@ Or install it yourself as:
 ## Usage
 
 ```
-SomeModel.ordered_find([1, 3, 2])
-=>  [#<SomeModel id: 1>, #<SomeModel id: 3>, #<SomeModel id: 2>]
+SomeModel.ordered_find([1, 3, 2, 1])
+=>  [#<SomeModel id: 1>, #<SomeModel id: 3>, #<SomeModel id: 2>, #<SomeModel id: 1>]
 ```
 or
 ```
