@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["takeofujita@gmail.com"]
   spec.summary       = %q{ordered find}
   spec.description   = %q{ordered find}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tkeo/ordered_find"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
