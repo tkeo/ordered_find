@@ -5,7 +5,7 @@ module ActiveRecord
   class Relation
     def ordered_find(*args)
       ids = args.flatten
-      where(id: ids).sort_by {|object| ids.index(object.id) }
+      where(id: ids.uniq).index_by(&:id).values_at(*ids)
     end
   end
 
